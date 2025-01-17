@@ -1,0 +1,955 @@
+@charset "UTF8";
+html {
+  font-size: 10px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 680px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+header h2 {
+  font-size: 7rem;
+  text-align: center;
+  color: #c33;
+  padding-top: 100px;
+}
+@media screen and (max-width: 680px) {
+  header h2 {
+    font-size: 2.8rem;
+    padding-top: 30px;
+  }
+}
+header p {
+  font-family: Osaka;
+  font-size: 2.5rem;
+  line-height: 40px;
+  width: 918px;
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #000;
+}
+@media screen and (max-width: 680px) {
+  header p {
+    font-size: 1.4rem;
+    width: 364px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+  }
+}
+header p span {
+  color: #f00;
+}
+.main-bg {
+  width: 100%;
+  margin-top: 100px;
+  background: -moz-linear-gradient(
+    0% 50% 0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    0% 50%,
+    100% 50%,
+    color-stop(0, rgba(255, 255, 255, 1)),
+    color-stop(1, rgba(204, 255, 255, 1))
+  );
+  background: -o-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CCFFFF' ,GradientType=0)";
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCFFFF' , GradientType=1);
+}
+@media screen and (max-width: 680px) {
+  .main-bg {
+    margin-top: 50px;
+  }
+}
+.title-img-1 {
+  display: flex;
+  font-size: 5rem;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  color: #069;
+  padding-top: 135px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 680px) {
+  .title-img-1 {
+    display: block;
+    font-size: 2.4rem;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-1 p {
+    width: 223px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-1 img {
+    width: 290px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+}
+.text-1 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 930px;
+  line-height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: justify;
+}
+@media screen and (max-width: 680px) {
+  .text-1 {
+    font-size: 1.5rem;
+    width: 345px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.title-img-2 {
+  display: flex;
+  font-size: 5rem;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  color: #069;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 60px;
+}
+@media screen and (max-width: 680px) {
+  .title-img-2 {
+    display: block;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-2 p {
+    width: 266px;
+    font-size: 2.4rem;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-2 img {
+    width: 290px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+}
+.text-2 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 921px;
+  line-height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: justify;
+}
+@media screen and (max-width: 680px) {
+  .text-2 {
+    width: 345px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.text-2 span {
+  color: #f00;
+}
+.title-img-3 {
+  display: flex;
+  font-size: 5rem;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  color: #069;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 60px;
+}
+@media screen and (max-width: 680px) {
+  .title-img-3 {
+    display: block;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-3 p {
+    width: 266px;
+    font-size: 2.4rem;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-3 img {
+    width: 290px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+}
+.text-3 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 949px;
+  line-height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: justify;
+}
+@media screen and (max-width: 680px) {
+  .text-3 {
+    width: 345px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.title-4 {
+  font-size: 5rem;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  color: #069;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 680px) {
+  .title-4 {
+    width: 240px;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    padding-bottom: 60px;
+  }
+}
+.title-img-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-img-4-1 {
+  font-size: 2rem;
+  font-family: Osaka;
+  width: 461px;
+  line-height: 30px;
+}
+.title-img-4-1 span {
+  color: #f7931e;
+}
+.title-img-4-2 {
+  font-size: 2rem;
+  font-family: Osaka;
+  width: 460px;
+  line-height: 30px;
+}
+.title-img-4-2 span {
+  color: #006837;
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-1-s {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-1-s p {
+    font-size: 1.4rem;
+    font-family: Osaka;
+    text-align: justify;
+    padding: 0 4px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-1-s span {
+    color: #f7931e;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-1-s img {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-2-1-s {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-2-1-s img {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-2-1-s p {
+    font-size: 1.4rem;
+    font-family: Osaka;
+    text-align: justify;
+    padding: 0 4px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-4-2-1-s span {
+    color: #006837;
+  }
+}
+.text-4 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 949px;
+  line-height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: justify;
+  margin-top: 60px;
+}
+@media screen and (max-width: 680px) {
+  .text-4 {
+    width: 345px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.title-img-5 {
+  display: flex;
+  font-size: 5rem;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  color: #069;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 60px;
+}
+@media screen and (max-width: 680px) {
+  .title-img-5 {
+    display: block;
+    padding-top: 50px;
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-5 p {
+    width: 240px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-5 img {
+    width: 290px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+}
+.text-5 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 928px;
+  line-height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: justify;
+}
+@media screen and (max-width: 680px) {
+  .text-5 {
+    width: 345px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.title-img-6 {
+  display: flex;
+  font-size: 5rem;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  color: #069;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 60px;
+}
+@media screen and (max-width: 680px) {
+  .title-img-6 {
+    display: block;
+    padding-top: 50px;
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-6 p {
+    width: 264px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .title-img-6 img {
+    width: 290px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+}
+.text-6 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 930px;
+  line-height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: justify;
+}
+@media screen and (max-width: 680px) {
+  .text-6 {
+    width: 345px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.kara {
+  padding-bottom: 50px;
+}
+.housin h2 {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  font-family: ヒラギノ角ゴ Pro;
+  font-size: 5rem;
+  padding-left: 20px;
+  color: #c33;
+}
+@media screen and (max-width: 680px) {
+  .housin h2 {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-size: 2.4rem;
+  }
+}
+.housin p {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  margin: 0 auto;
+  text-align: justify;
+  width: 934px;
+  line-height: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+@media screen and (max-width: 680px) {
+  .housin p {
+    font-size: 1.6rem;
+    width: 369px;
+    line-height: 24px;
+    padding-bottom: 20px;
+  }
+}
+.housin p span {
+  color: #f00;
+}
+.housin-bg {
+  margin-top: 50px;
+  background: -moz-linear-gradient(
+    0% 50% 0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    0% 50%,
+    100% 50%,
+    color-stop(0, rgba(255, 255, 255, 1)),
+    color-stop(1, rgba(204, 255, 255, 1))
+  );
+  background: -o-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CCFFFF' ,GradientType=0)";
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(204, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCFFFF' , GradientType=1);
+}
+.title-1 {
+  font-size: 5rem;
+  color: #069;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+  .title-1 {
+    font-size: 2.4rem;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .housin-img-1-s {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .housin-img-1-s img {
+    width: 290px;
+    padding-left: 50px;
+    margin: 0 auto;
+  }
+}
+.housin-t-1 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 946px;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 17px;
+}
+@media screen and (max-width: 680px) {
+  .housin-t-1 {
+    font-size: 1.5rem;
+    width: 350px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.housin-t-1 span {
+  color: #f00;
+}
+.housin-img-1 {
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 120px;
+}
+.title-2 {
+  font-size: 4.8rem;
+  color: #069;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+  .title-2 {
+    font-size: 2.4rem;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+}
+.housin-t-2 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 954px;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 17px;
+}
+@media screen and (max-width: 680px) {
+  .housin-t-2 {
+    font-size: 1.5rem;
+    width: 350px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.housin-img-2 {
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 70px;
+}
+@media screen and (max-width: 680px) {
+  .housin-img-2-s {
+    width: 290px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+}
+.title-3 {
+  font-size: 4.8rem;
+  color: #069;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+  .title-3 {
+    font-size: 2.4rem;
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+}
+.housin-t-3 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 948px;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 17px;
+}
+@media screen and (max-width: 680px) {
+  .housin-t-3 {
+    font-size: 1.5rem;
+    width: 329px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.housin-t-3 span {
+  color: #f00;
+}
+.housin-img-3 {
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 680px) {
+  .housin-img-3-s {
+    width: 290px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+}
+.title-4-3 {
+  font-size: 4.8rem;
+  color: #069;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+  .title-4-3 {
+    font-size: 2.4rem;
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+}
+.housin-t-4 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 946px;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 17px;
+}
+@media screen and (max-width: 680px) {
+  .housin-t-4 {
+    font-size: 1.5rem;
+    width: 350px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.housin-img-4 {
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 680px) {
+  .housin-img-4-s {
+    width: 290px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+}
+.title-5 {
+  font-size: 4.8rem;
+  color: #069;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+  .title-5 {
+    font-size: 2.4rem;
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+}
+.housin-t-5 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 921px;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 17px;
+}
+@media screen and (max-width: 680px) {
+  .housin-t-5 {
+    font-size: 1.5rem;
+    width: 344px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.housin-img-5 {
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 680px) {
+  .housin-img-5-s {
+    width: 290px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+}
+.title-6 {
+  font-size: 4.8rem;
+  color: #069;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+  .title-6 {
+    font-size: 2.1rem;
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+}
+.housin-t-6 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 921px;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 17px;
+}
+@media screen and (max-width: 680px) {
+  .housin-t-6 {
+    font-size: 1.5rem;
+    width: 345px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.housin-img-6 {
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 680px) {
+  .housin-img-6-s {
+    width: 290px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+}
+.title-7 {
+  font-size: 4.8rem;
+  color: #069;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 680px) {
+  .title-7 {
+    font-size: 2.1rem;
+    padding-left: 10px;
+    padding-bottom: 30px;
+  }
+}
+.housin-t-7 {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  width: 921px;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 17px;
+}
+@media screen and (max-width: 680px) {
+  .housin-t-7 {
+    font-size: 1.5rem;
+    width: 350px;
+    line-height: 24px;
+    padding: 10px;
+  }
+}
+.housin-img-7 {
+  padding-top: 70px;
+  padding-left: 510px;
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 680px) {
+  .housin-img-7-s {
+    width: 290px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+}
+.kara2 {
+  padding-top: 50px;
+}
+.footer-list {
+  margin-top: 50px;
+  font-size: 2rem;
+  line-height: 70px;
+  column-count: 3;
+}
+@media screen and (max-width: 680px) {
+  .footer-list {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    column-count: 2;
+  }
+}
+.footer-list li {
+  margin: 0 auto;
+  width: 180px;
+}
+@media screen and (max-width: 680px) {
+  .footer-list li {
+    width: 110px;
+  }
+}
+.footer-list a {
+  text-decoration: none;
+  color: #000;
+}
+.copy {
+  font-size: 1.6rem;
+  text-align: end;
+  padding-top: 45px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 680px) {
+  .copy {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+}
+.pc {
+  display: block flex;
+}
+@media screen and (max-width: 680px) {
+  .pc {
+    display: none;
+  }
+}
+.sp {
+  display: none;
+}
+@media screen and (max-width: 680px) {
+  .sp {
+    display: block;
+  }
+}

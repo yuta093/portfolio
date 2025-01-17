@@ -1,0 +1,485 @@
+@charset "UTF8";
+html {
+  font-size: 10px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 680px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+header h2 {
+  font-size: 7rem;
+  font-family: ヒラギノ角ゴ Pro;
+  color: #c33;
+  text-align: center;
+  padding-top: 100px;
+}
+@media screen and (max-width: 680px) {
+  header h2 {
+    font-size: 2.8rem;
+    padding-top: 30px;
+  }
+}
+header p {
+  font-size: 2.5rem;
+  font-family: Osaka;
+  line-height: 40px;
+  text-align: justify;
+  margin: 0 auto;
+  width: 940px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+@media screen and (max-width: 680px) {
+  header p {
+    font-size: 1.5rem;
+    line-height: 24px;
+    width: 370px;
+    padding-top: 30px;
+  }
+}
+.sinsatu-bg {
+  margin-top: 100px;
+  background: -moz-linear-gradient(
+    51.71% -9.92% -90.53deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(244, 255, 255, 1) 8.71%,
+    rgba(215, 255, 255, 1) 36.22%,
+    rgba(204, 255, 255, 1) 51.9%,
+    rgba(208, 255, 255, 1) 64.64%,
+    rgba(221, 255, 255, 1) 78.24%,
+    rgba(242, 255, 255, 1) 92.21%,
+    rgba(255, 255, 255, 1) 98.72%
+  );
+  background: -webkit-linear-gradient(
+    -90.53deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(244, 255, 255, 1) 8.71%,
+    rgba(215, 255, 255, 1) 36.22%,
+    rgba(204, 255, 255, 1) 51.9%,
+    rgba(208, 255, 255, 1) 64.64%,
+    rgba(221, 255, 255, 1) 78.24%,
+    rgba(242, 255, 255, 1) 92.21%,
+    rgba(255, 255, 255, 1) 98.72%
+  );
+  background: -webkit-gradient(
+    linear,
+    51.71% -9.92%,
+    48.62% 98.26%,
+    color-stop(0, rgba(255, 255, 255, 1)),
+    color-stop(0.0871, rgba(244, 255, 255, 1)),
+    color-stop(0.3622, rgba(215, 255, 255, 1)),
+    color-stop(0.519, rgba(204, 255, 255, 1)),
+    color-stop(0.6464, rgba(208, 255, 255, 1)),
+    color-stop(0.7824, rgba(221, 255, 255, 1)),
+    color-stop(0.9221, rgba(242, 255, 255, 1)),
+    color-stop(0.9872, rgba(255, 255, 255, 1))
+  );
+  background: -o-linear-gradient(
+    -90.53deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(244, 255, 255, 1) 8.71%,
+    rgba(215, 255, 255, 1) 36.22%,
+    rgba(204, 255, 255, 1) 51.9%,
+    rgba(208, 255, 255, 1) 64.64%,
+    rgba(221, 255, 255, 1) 78.24%,
+    rgba(242, 255, 255, 1) 92.21%,
+    rgba(255, 255, 255, 1) 98.72%
+  );
+  background: -ms-linear-gradient(
+    -90.53deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(244, 255, 255, 1) 8.71%,
+    rgba(215, 255, 255, 1) 36.22%,
+    rgba(204, 255, 255, 1) 51.9%,
+    rgba(208, 255, 255, 1) 64.64%,
+    rgba(221, 255, 255, 1) 78.24%,
+    rgba(242, 255, 255, 1) 92.21%,
+    rgba(255, 255, 255, 1) 98.72%
+  );
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF' ,GradientType=0)";
+  background: linear-gradient(
+    180.53deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(244, 255, 255, 1) 8.71%,
+    rgba(215, 255, 255, 1) 36.22%,
+    rgba(204, 255, 255, 1) 51.9%,
+    rgba(208, 255, 255, 1) 64.64%,
+    rgba(221, 255, 255, 1) 78.24%,
+    rgba(242, 255, 255, 1) 92.21%,
+    rgba(255, 255, 255, 1) 98.72%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#FFFFFF' , GradientType=1);
+}
+@media screen and (max-width: 680px) {
+  .sinssatu-bg {
+    margin-top: 50px;
+  }
+}
+.sinsatu h2 {
+  font-size: 7rem;
+  color: #069;
+  padding-left: 55px;
+}
+@media screen and (max-width: 680px) {
+  .sinsatu h2 {
+    font-size: 2.4rem;
+    width: 100px;
+    margin: 0 auto;
+    padding-left: 0px;
+  }
+}
+.sinsatu p {
+  padding-bottom: 15px;
+  padding-top: 50px;
+  font-size: 3.5rem;
+  font-family: Osaka;
+  text-align: center;
+}
+@media screen and (max-width: 680px) {
+  .sinsatu p {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+  }
+}
+.hour {
+  font-family: Hiragino Kaku Gothic Pro;
+  background-color: #f2f2f2;
+  border-radius: 7px;
+  margin: 15px auto;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 680px) {
+  .hour {
+    border-radius: 20px;
+  }
+}
+.hour th {
+  font-size: 1.2rem;
+  padding: 10px 6px 5px 6px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+@media screen and (min-width: 680px) {
+  .hour th {
+    font-size: 2.3rem;
+    padding: 20px;
+  }
+}
+.td-1 {
+  font-size: 1.2rem;
+  height: 25px;
+  text-align: center;
+  padding: 10px 6px 5px 6px;
+  border-bottom: 1px solid #000;
+}
+.td-1 td:nth-of-type(n + 2):nth-child(-n + 4) {
+  color: #99ccff;
+}
+.td-1 td:nth-of-type(n + 6):nth-child(-n + 7) {
+  color: #99ccff;
+}
+
+@media screen and (min-width: 680px) {
+  .td-1 {
+    font-size: 2.3rem;
+    padding: 25px 7px 5px 25px;
+    height: 50px;
+  }
+}
+.td-2 {
+  font-size: 1.2rem;
+  height: 25px;
+  text-align: center;
+  padding: 10px 6px 5px 6px;
+  border-bottom: none;
+}
+@media screen and (min-width: 680px) {
+  .td-2 {
+    font-size: 2.3rem;
+    height: 50px;
+  }
+}
+.td-2 td:nth-of-type(n + 2):nth-child(-n + 4) {
+  color: #99ccff;
+}
+.td-2 td:nth-of-type(6) {
+  color: #99ccff;
+}
+.kome {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 255px;
+  font-family: Hiragino Kaku Gothic Pro;
+  text-align: justify;
+  width: 725px;
+}
+@media screen and (max-width: 680px) {
+  .kome-s {
+    font-size: 1.4rem;
+    width: 370px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    font-family: Hiragino Kaku Gothic Pro;
+    text-align: justify;
+  }
+}
+.icon1 {
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  opacity: 20%;
+}
+@media screen and (max-width: 680px) {
+  .icon1 {
+    width: 110px;
+    top: 470px;
+    left: 0px;
+  }
+}
+.sinryou h2 {
+  font-size: 7rem;
+  color: #069;
+  padding-left: 55px;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 680px) {
+  .sinryou h2 {
+    font-size: 2.4rem;
+    padding-left: 0;
+    padding-bottom: 35px;
+    width: 100px;
+    margin: 0 auto;
+  }
+}
+.icon1-3 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 90px;
+}
+.btn-1:hover {
+  transform: rotate(-15deg);
+}
+.btn-2:hover {
+  transform: rotate(-15deg);
+}
+.btn-3:hover {
+  transform: rotate(-15deg);
+}
+.btn-4:hover {
+  transform: rotate(-15deg);
+}
+.btn-5:hover {
+  transform: rotate(-15deg);
+}
+@media screen and (max-width: 680px) {
+  .icon1-5-s img {
+    display: block;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+}
+.icon4-5 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 270px;
+}
+.place h2 {
+  font-size: 5rem;
+  color: #069;
+  padding-left: 55px;
+  padding-bottom: 75px;
+  font-family: Hiragino Kaku Gothic Pro;
+}
+@media screen and (max-width: 680px) {
+  .place {
+    display: flex;
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .place h2 {
+    font-size: 2.4rem;
+    padding-left: 20px;
+  }
+}
+.place p {
+  font-size: 3rem;
+  font-family: Osaka;
+  padding-bottom: 55px;
+  padding-left: 80px;
+}
+@media screen and (max-width: 680px) {
+  .place p {
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+    width: 200px;
+    padding-left: 50px;
+  }
+}
+.tizu {
+  position: absolute;
+  top: 2300px;
+  left: 600px;
+}
+@media screen and (max-width: 680px) {
+  .akusesu {
+    display: flex;
+  }
+}
+.akusesu h2 {
+  font-size: 5rem;
+  color: #069;
+  padding-left: 55px;
+  padding-bottom: 75px;
+  font-family: Hiragino Kaku Gothic Pro;
+}
+@media screen and (max-width: 680px) {
+  .akusesu h2 {
+    font-size: 2.4rem;
+    padding-left: 20px;
+  }
+}
+.akusesu p:nth-of-type(n + 1):nth-child(-n + 3) {
+  font-size: 3rem;
+  font-family: Osaka;
+  padding-bottom: 55px;
+  padding-left: 80px;
+}
+@media screen and (max-width: 680px) {
+  .akusesu p:nth-of-type(n + 1):nth-child(-n + 3) {
+    font-size: 1.6rem;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+}
+.kome-2 {
+  font-size: 3.5rem;
+  font-family: Hiragino Kaku Gothic Pro;
+  font-weight: bold;
+  padding-bottom: 55px;
+  margin-left: 40px;
+  border-bottom: 2px solid #000;
+  width: 910px;
+}
+@media screen and (max-width: 680px) {
+  .kome-2-s {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 366px;
+    border-bottom: 1px solid #000;
+  }
+}
+.kome-2 span {
+  color: #f30;
+  display: contents;
+}
+.kome-2-s span {
+  color: #f30;
+}
+.contact h2 {
+  font-size: 5rem;
+  color: #069;
+  padding-top: 60px;
+  padding-left: 55px;
+  padding-bottom: 75px;
+  font-family: Hiragino Kaku Gothic Pro;
+}
+@media screen and (max-width: 680px) {
+  .contact h2 {
+    font-size: 2.4rem;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+}
+.contact p {
+  font-size: 3.5rem;
+  font-family: Osaka;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+@media screen and (max-width: 680px) {
+  .contact p {
+    font-size: 20px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+  }
+}
+.contact p:nth-of-type(3) {
+  margin-bottom: 120px;
+  border-bottom: 2px solid #000;
+  width: 840px;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 680px) {
+  .contact p:nth-of-type(3) {
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    width: 313px;
+    border-bottom: 1px solid #000;
+  }
+}
+.footer-list {
+  font-family: Osaka;
+  padding: 0 25px 0 70px;
+  font-size: 1.2rem;
+  line-height: 40px;
+  column-count: 2;
+}
+@media screen and (min-width: 680px) {
+  .footer-list {
+    grid-template-columns: repeat(3, 350px);
+    font-size: 2rem;
+    line-height: 70px;
+    column-count: 3;
+  }
+}
+.footer-list a {
+  text-decoration: none;
+  color: #000;
+}
+.copy {
+  font-size: 1.2rem;
+  text-align: end;
+  padding-top: 45px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 680px) {
+  .copy {
+    font-size: 1.6rem;
+  }
+}
+.pc {
+  display: block flex;
+}
+@media screen and (max-width: 680px) {
+  .pc {
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+}
+@media screen and (max-width: 680px) {
+  .sp {
+    display: block;
+  }
+}
